@@ -14,7 +14,7 @@ Source:		visualboyadvance-%{version}.tar.gz
 Patch:		06_old_2xSaImmx_asm.dpatch
 Patch1:		02_amd64_build_fix.dpatch
 Patch2:		visualboyadvance-1.7.2-deprecatedsigc++.patch
-Url:		http://vba.ngemu.com/
+Url:		https://vba.ngemu.com/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot 
 License:	GPLv2+
 BuildRequires:	nasm
