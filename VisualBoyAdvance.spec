@@ -17,6 +17,11 @@ Patch2:		visualboyadvance-1.7.2-deprecatedsigc++.patch
 Url:		https://vba.ngemu.com/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot 
 License:	GPLv2+
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	nasm
 %if %build_gtk
 BuildRequires:	gtkmm2.4-devel
