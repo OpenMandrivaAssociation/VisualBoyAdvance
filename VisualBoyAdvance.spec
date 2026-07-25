@@ -1,7 +1,7 @@
 %define name	VisualBoyAdvance
 %define version 1.8.0
 %define rel 1
-%define release %mkrel %{rel}
+%define release %{rel}.1
 
 %define build_gtk 1
 
